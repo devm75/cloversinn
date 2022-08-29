@@ -1,5 +1,6 @@
 import './App.css';
 import "./assets/fonts/fonts.css";
+import React from 'react';
 import { NavBar } from "./components/navbar/NavBar";
 import { Home } from "./components/home/Home";
 import { Booking } from "./components/booking/Booking";
@@ -13,7 +14,7 @@ function App() {
   return (
     <HashRouter>
       <Routes>
-        <Route path="/cloversinn" element={<Home><NavBar /></Home>}></Route>
+        <Route path="/" element={<Home><NavBar /></Home>}></Route>
         <Route path="/booking" element={<Booking></Booking>}></Route>
         <Route path="/hotel" element={<Hotel></Hotel>} />
         <Route path="/rooms" element={<Rooms></Rooms>}></Route>

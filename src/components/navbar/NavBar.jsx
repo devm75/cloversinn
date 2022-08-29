@@ -66,7 +66,7 @@ useEffect(() => {
           <div className="navbar-mobile-content-container">
             <Link
               onClick={() => setShowNavbar(!showNavbar)}
-              to="/cloversinn"
+              to="/"
               className="link-NavBar"
             >
               <NavItem>
@@ -127,7 +127,7 @@ useEffect(() => {
         )}
       </div>
       <NavBarContainer backgroundColor={activebgcolor && bgcolor}>
-        <Link to="/cloversinn" className="link-NavBar">
+        <Link to="/" className="link-NavBar">
           <NavItem>
             <p className="NavBar-text">Home</p>
           </NavItem>
@@ -143,7 +143,7 @@ useEffect(() => {
           </NavItem>
         </Link>
         <NavLogo>
-          <Link to="/cloversinn" className="link-NavBar">
+          <Link to="/" className="link-NavBar">
             <h1>Clovers Inn</h1>
           </Link>
         </NavLogo>
