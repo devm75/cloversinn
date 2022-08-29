@@ -1,0 +1,16 @@
+.custom-link{
+    display: block;
+    text-decoration: none;
+    flex:0.5 !important;
+
+   
+    /* width:50%; */
+}
+
+ @media screen and (max-width:600px)  {
+     .custom-link{
+         flex:1 !important;
+         
+     }
+        
+    }

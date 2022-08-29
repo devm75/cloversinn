@@ -1,0 +1,115 @@
+.carousel-image {
+  height: 800px;
+}
+
+.welcome-top {
+  text-align: end;
+}
+
+.welcome-bottom {
+  text-align: end;
+}
+.stars-container {
+  text-align: end;
+}
+
+.template-image {
+  height: 240px;
+  width: 400px;
+  cursor: pointer;
+}
+
+.images-container:hover > .text-underline {
+  transition: width 0.5s;
+  width: 50%;
+}
+
+.static-image {
+  cursor: pointer;
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+.static-image:hover {
+  transform: scale(1.1);
+}
+.paragraph-containers {
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.icon-container {
+  display: block;
+  width: 80px;
+}
+.book-your-room-btn-container {
+  display: flex;
+  /* justify-content:center;
+align-items: center; */
+}
+.book-your-room-button {
+  width: 200px !important;
+  border: none !important;
+  color: black !important;
+  font-weight: bolder !important;
+  background-color: #f7f5be !important;
+  margin: auto !important;
+  /* margin-top: 40px !important; */
+}
+
+.services-top {
+width:100%;
+text-align: end;
+
+}
+
+.services-bottom {
+  width:100%;
+text-align: end;
+
+}
+.heading{
+  font-weight:bold;
+  font-size: 20px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .carousel-image {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .carousel-image {
+    height: 460px;
+  }
+
+  .template-image{
+    height:auto;
+    width:320px;
+  }
+
+  .welcome-bottom {
+    text-align: center;
+  }
+
+  .welcome-top {
+    text-align: center;
+  }
+
+  .services-bottom,.services-top{
+    text-align: center;
+  }
+
+  .stars-container {
+    text-align: center;
+    margin: 20px;
+  }
+
+  .static-image {
+    width: 70%;
+    height: 70%;
+  }
+}

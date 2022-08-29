@@ -1,0 +1,79 @@
+.booking-hero-image {
+  width: 100%;
+  height: 100%;
+}
+
+.booking-heading {
+  text-align: end;
+}
+
+.booking-heading-top {
+  text-align: end;
+}
+
+.booking-heading-bottom {
+  text-align: end;
+}
+
+.address-loc-container {
+  padding: 40px;
+}
+
+.address-line-1 {
+  text-align: start;
+}
+
+.address-line-2 {
+  text-align: start;
+}
+.address-line-3 {
+  text-align: start;
+}
+
+.contact-info-container {
+  padding: 20px 40px;
+}
+.contact-heading {
+  text-align: start;
+}
+
+.contact-number {
+  text-align: start;
+}
+
+.email-info-container {
+  padding: 20px 40px;
+}
+.email-heading {
+  text-align: start;
+}
+.email-value {
+  text-align: start;
+}
+@media screen and (max-width: 1000px) {
+  .booking-heading {
+    text-align: center;
+  }
+  .booking-heading-top {
+    text-align: center;
+  }
+  .booking-heading-bottom {
+    text-align: center;
+  }
+  .address-line-1,
+  .address-line-2,
+  .address-line-3 {
+    text-align: center;
+  }
+  .contact-heading,
+  .contact-number,.email-heading,.email-value {
+    text-align: center;
+  }
+  .contact-info-container,.email-info-container{
+      padding: 20px;
+  }
+  .contact-number,.email-value{
+      font-size: 16px;
+      line-height: 200%;
+  }
+}

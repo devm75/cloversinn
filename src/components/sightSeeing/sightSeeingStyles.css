@@ -1,0 +1,25 @@
+.loc-heading {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.sight-image {
+  width: 500px;
+  height: 340px;
+}
+
+@media screen and (max-width: 1000px) {
+  .sight-image {
+    width: 390px;
+    height: 270px;
+  }
+
+
+}
+
+@media screen and (max-width:450px){
+    .sight-image{
+        width:320px;
+        height:220px;
+    }
+}
